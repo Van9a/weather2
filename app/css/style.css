@@ -1,0 +1,98 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+h4{
+    color:white;
+}
+.select-city {
+    display: flex;
+    font-size: 24px;
+    text-align: center;
+
+    margin: 20px auto;
+    padding:10px 0;
+    color: #000;
+    border: 1px solid #000;
+    width: 25%;
+}
+
+.select-city:hover {
+    text-decoration: none;
+
+}
+.btn.btn-primary {
+    margin: 28px 0 15px 0px;
+    padding: 10px 60px;
+    border: white 1px solid;
+}
+.page-link {
+    cursor: pointer;
+}
+.arrow-up{
+    width: 0;
+    height: 0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top: 10px solid black;
+}.arrow-down{
+    width: 0;
+    height: 0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top: 10px solid black;
+}
+.md-raised {
+    background-color: rgb(16,108,200);
+    padding: 15px 50px;
+    border-radius: 5px;
+    border-color: white;
+    color: #fff;
+}
+.sort-icon {
+    font-size: 9px;
+    margin-left: 5px;
+}
+th {
+    cursor:pointer;
+}
+ .select-city:hover{
+     color:black;
+     border-color: black;
+ }
+.container{
+     margin-top: 0px;
+ }
+.container-a {
+    text-align: center;
+    display: block;
+    background: #007bff;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+}
+.container-view{
+    display: block;
+    width: 100%;
+    background:rgb(16,108,200);
+    border-radius: 10px;
+    padding: 30px 30px 0px 30px;
+}
+.btn.btn-primary {
+    margin: 40px 0;
+    border: white 1px solid;
+}
+.get-forecast{
+    margin-top: 10px;
+}
+table{
+    color: white;
+}
+.table{
+    width: 90%;
+    margin-left: 10px;
+}
+h1{
+    color: white;
+}

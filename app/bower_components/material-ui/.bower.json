@@ -1,0 +1,15 @@
+{
+  "name": "material-ui",
+  "homepage": "https://github.com/callemall/material-ui",
+  "version": "1.0.24",
+  "_release": "1.0.24",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.24",
+    "commit": "bf231e127a51510ab838b60822fa254e1f163e12"
+  },
+  "_source": "https://github.com/callemall/material-ui.git",
+  "_target": "^1.0.24",
+  "_originalSource": "material-ui",
+  "_direct": true
+}

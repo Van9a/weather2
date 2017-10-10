@@ -1,0 +1,42 @@
+<h1 style="text-align: center; margin:0 0 25px 0;">{{ city }}</h1>
+<div class="container">
+    <table id="example" class="table table-bordered" cellspacing="0">
+        <thead>
+        <tr>
+            <th ng-click="sort('year')">Year
+                <span class="glyphicon sort-icon" ng-show="sortKey=='year'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+            </th>
+            <th>Month</th>
+            <th ng-click="sort('tmin')">tMin
+                <span class="glyphicon sort-icon" ng-show="sortKey=='tmin'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+            </th>
+            <th ng-click="sort('tmax')">tMax
+                <span class="glyphicon sort-icon" ng-show="sortKey=='tmax'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+            </th>
+            <th>af</th>
+            <th>Rain</th>
+            <th>Sun hours</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr dir-paginate="item in result|orderBy:sortKey:reverse|filter:search|itemsPerPage:12">
+            <td>{{item.year}}</td>
+            <td>{{item.month}}</td>
+            <td>{{item.tmax}}</td>
+            <td>{{item.tmin}}</td>
+            <td>{{item.af}}</td>
+            <td>{{item.rain}}</td>
+            <td>{{item.hours}}</td>
+        </tr>
+        </tbody>
+
+    </table>
+    <dir-pagination-controls
+            max-size="6"
+            direction-links="true"
+            boundary-links="true" >
+    </dir-pagination-controls>
+</div>
+
+
